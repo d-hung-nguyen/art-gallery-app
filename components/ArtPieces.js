@@ -9,12 +9,14 @@ import ArtPiecePreview from "./ArtPiecePreview";
 export default function ArtPieces({ pieces }) {
   return (
     <div>
+      <h1>Art Gallery</h1>
       {pieces.map((piece) => (
         <ArtPiecePreview
           key={piece.slug}
           imageSource={piece.imageSource}
           title={piece.name}
           artist={piece.artist}
+          slug={piece.slug}
         />
       ))}
     </div>
