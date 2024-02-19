@@ -21,7 +21,7 @@ export default function Nav() {
 }
 
 const StyledNav = styled.nav`
-  position: absolute;
+  position: fixed;
   background-color: grey;
   width: 100%;
   bottom: 0;
