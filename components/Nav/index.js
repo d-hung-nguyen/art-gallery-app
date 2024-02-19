@@ -32,9 +32,17 @@ const StyledNav = styled.nav`
     margin: 0;
     padding: 0;
   }
-  li {
+  a {
     flex: 1;
     padding: 20px;
     text-align: center;
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    background-color: darkgrey;
+  }
+  line-height {
+    cursor: pointer;
   }
 `;
